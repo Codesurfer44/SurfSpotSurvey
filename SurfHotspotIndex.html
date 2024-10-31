@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Global Surfing Hotspots Survey: Share Your Favorite Surf Destinations</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="SurfHotspotStyle.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+ <div class="container-title">
+    <h1 id="title" class="border-fill">
+    Global Surfing Hotspots Survey:<br> Share Your Favorite Surf Destinations
+    </h1>
+ </div>   
+
+ <div class="container-comment"> 
+  <p id="description" class="border-fill">Join our survey and share your favorite surf spots! Whether you're a pro or just starting out, your tips will help us create a top list of global wave-riding havens. 
+Dive in and help fellow surfers discover the best breaks worldwide!</p>
+</div>
+
+<div class="container-form">
+  <form id="survey-form">
+    <fieldset>
+
+      <div class="personal-info">
+        <label id="name-label" for="name">Enter Your Name: 
+          <input id="name" type="text" required name="name" placeholder="Enter your name"></label>
+
+        <label id="email-label" for="email">Enter Your Email: 
+          <input id="email" type="email" required name="email" placeholder="Enter your Email"></label>
+
+        <label id="number-label" for="number">Age: 
+          <input id="number" type="number" min="6" max="123" placeholder="Your age (optional)"></label>
+
+        <label id="dropdown-label" for="dropdown"> Choose surfing style: </label>
+          <select id="dropdown" name="dropdown" required>
+            <option value="">(select one)</option>
+            <option value="1">Shortboarding</option>
+            <option value="2">Longboarding</option>
+            <option value="3">Big wave surfing</option>
+            <option value="4">SUP</option>
+            <option value="5">Skimboarding</option>
+            <option value="6">Foil surfing</option>
+            <option value="7">Windsurfing</option>
+            <option value="8">Kiteboarding</option>
+            <option value="9">Jet surfing</option>
+            <option value="10">Retro surfing</option>
+            <option value="11">Other</option>
+            </select>
+      </div>
+
+      <div class="skill">
+      <p>Choose your skill level: </p>
+      <label>
+        <input type="radio" name="skill" value="Beginner" required>Beginner
+      </label>
+      <label>
+        <input type="radio" name="skill" value="Intermediate">Intermediate
+      </label>
+      <label>
+        <input type="radio" name="skill" value="Advanced">Advanced
+      </label>
+      </div>
+
+      <div class="continent">
+      <p>On which continent do you surf the most?</p>
+      <label>
+        <input type="checkbox" name="continent" value="Africa" class="checkbox">
+        Africa
+      </label>
+  
+      <label>
+        <input type="checkbox" name="continent" value="Antarctica" class="checkbox">
+        Antarctica
+      </label>
+  
+      <label>
+        <input type="checkbox" name="continent" value="Asia" class="checkbox">
+        Asia
+      </label>
+  
+      <label>
+        <input type="checkbox" name="continent" value="Europe" class="checkbox">
+        Europe
+      </label>
+
+      <label>
+        <input type="checkbox" name="continent" value="Oceania" class="checkbox">
+        Oceania(Australia)
+      </label>
+
+      <label>
+        <input type="checkbox" name="continent" value="North America" class="checkbox">
+        North America
+      </label>
+
+      <label>
+        <input type="checkbox" name="continent" value="South America" class="checkbox">
+        South America
+      </label>
+      </div>
+
+      <div class="textarea">
+      <label for="surfspot">What’s your go-to spot for surfing:
+          <textarea id="surfspot" name="surfspot" rows="1" cols="80" placeholder="Mavericks Beach - Half Moon Bay, California." required></textarea>
+        </label>
+      </div>
+        <input type="submit" id="submit" value="Submit"/>
+    </fieldset>
+  </form>
+</div> 
+</body>
+</html>
