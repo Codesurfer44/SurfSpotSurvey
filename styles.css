@@ -1,0 +1,115 @@
+body {
+  background-image: URL(https://github.com/Codesurfer44/SurfSpotSurvey/blob/main/seawaves_vertical.jpg?raw=true);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.container-title, .container-comment, .container-form {
+  text-align: center;
+}
+
+h1{
+  font-family: 'Courier new', courier, monospace;
+  font-size: 1.75em;
+  color:rgba(219, 248, 244, 0.806);
+  text-shadow: 0.065em 0.065em 0.1em rgba(0, 0, 0, 0.89);
+}
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.25em;
+  color:rgba(0, 0, 0, 0.9);
+}
+
+.container-title{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.container-comment{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+h1{
+  display: inline-block;
+  padding: 0.75em 2em;
+  background-color: rgba(68, 160, 165, 0.5);
+  border-radius: 5em;
+  box-shadow:  0 0 1.2em rgb(0, 0, 0);
+}
+
+p.border-fill{
+  display: inline-block;
+  padding: 0.75em 2em;
+  background-color: rgba(185, 233, 236, 0.5);
+  border-radius: 1em;
+  box-shadow:  0 0 1.2em rgb(0, 0, 0);
+}
+
+fieldset{
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.05em;
+  border-radius: 1em;
+  padding: 2em;
+  border: 0.20em solid #213436;
+  background-color: rgba(185, 233, 236, 0.5);
+  box-shadow:  0 0 2em rgb(0, 0, 0);
+}
+
+input, textarea, select {
+  width: 100%;
+  margin-bottom: 1em;
+  padding: 0.5em 0.5em;
+  text-align: center;
+  border-style: ridge;
+  border-radius: 0.5em;
+  border-color: #000000;
+  box-shadow:  0 0 0.25em rgb(0, 0, 0);
+}
+
+input[type="checkbox"], input[type="radio"] {
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 0.5em;
+
+}
+
+
+.skill, .continent, .textarea {
+  margin: 1em;
+  border: 0.2em solid #213436;
+  box-shadow:  0 0 0.4em rgb(0, 0, 0);
+  border-radius: 1em;
+  padding-bottom: 1em ;
+}
+
+.skill label, .continent label {
+  display: inline-flex;
+}
+
+.textarea {
+  padding: 1em;
+}
+
+#submit {
+  display: block;
+  margin: 0 auto;
+  padding: 0.3em 0.3em;
+  width: 35%;
+  background-color: #000000ca;
+  box-shadow:  0 0 0.75em rgb(0, 0, 0);
+  color: #ffffff;
+  font: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 1em;
+  border-style: ridge;
+  border-color: #ffffff;
+}
